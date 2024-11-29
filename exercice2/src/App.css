@@ -1,3 +1,117 @@
+/* App.css */
+main {
+  background-color: rgb(142, 142, 231);
+  margin: 50px;
+  padding: 20px;
+}
+
+.titre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titre h1 {
+  color: purple;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.titre h3 {
+  margin-top: 0;
+}
+
+.section1 {
+  width: 300px;
+  border-radius: 10px;
+  background-color: white;
+  height: 350px;
+  padding: 15px;
+}
+
+.section1 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section1 #div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section1 img {
+  margin-top: 10px;
+}
+
+.section2 {
+  width: 700px;
+  border-radius: 10px;
+  background-color: white;
+  height: 350px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+#div2 {
+  display: flex;
+  align-items: center;
+}
+
+table {
+  width: 100%;
+  border: 1px solid rgb(184, 178, 178);
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+.center {
+  width: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.section3 {
+  background-color: white;
+  width: 800px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.partie1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.section3 p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section img {
+  margin-top: 10px;
+}
 .div1 {
   display: flex;
   align-items: center;
@@ -6,3 +120,41 @@
   background-color: #f8f9fa; 
   border: 1px solid #ddd; 
 }
+.header {
+  display: flex;
+  align-items: center;
+}
+.header img{
+  margin-right: 10px; 
+}
+
+.header h2{
+  font-size: 20px;
+  color: #007bff;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+}
+.navigation ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation li {
+  margin: 0 10px;
+}
+.navigation a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+.navigation a:hover {
+  text-decoration: underline;
+}
+p{
+  text-align: center;    
+  font-style: italic;
+  margin-top: 0;
+  }

@@ -1,5 +1,4 @@
 import React from "react";
-import './profil.css';
 import image from '../images/profil.png'
 import image2 from '../images/carre.png'
 function Profil(){
