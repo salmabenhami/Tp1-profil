@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from './header/header'
-import Navigation from './navigation/navigation';
-import Footer from './footer/footer';
-import Profil from './content/profil';
+import Header from './component/header/header'
+import Navigation from './component/navigation/navigation';
+import Footer from './component/footer/footer';
+import Profil from './component/content/profil'
 import "./App.css";
 function App(){
   return(

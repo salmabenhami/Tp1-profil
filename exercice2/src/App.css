@@ -1,9 +1,8 @@
-/* App.css */
 main {
-  background-color: rgb(142, 142, 231);
+  background-image: linear-gradient(to right, rgb(67, 140, 185), rgb(59, 141, 59));
   margin: 50px;
   padding: 20px;
-}
+margin: auto;}
 
 .titre {
   display: flex;
@@ -26,8 +25,9 @@ main {
   width: 300px;
   border-radius: 10px;
   background-color: white;
-  height: 350px;
+  height: 410px;
   padding: 15px;
+  margin-top: 20px;
 }
 
 .section1 ul {
@@ -66,8 +66,7 @@ table {
   border-collapse: collapse;
 }
 
-th,
-td {
+th,td {
   padding: 10px;
   text-align: left;
 }
@@ -85,7 +84,7 @@ th {
 
 .section3 {
   background-color: white;
-  width: 800px;
+  width: 690px;
   border-radius: 10px;
   margin-top: 20px;
   padding: 20px;
@@ -94,10 +93,12 @@ th {
 .partie1 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 10px;
+  justify-content: center;
 }
-
+#partie2{
+margin-left: 50px;
+}
 .section3 p {
   font-size: 16px;
   line-height: 1.6;
@@ -130,7 +131,7 @@ section img {
 
 .header h2{
   font-size: 20px;
-  color: #007bff;
+  color: black;
 }
 .header{
   display: flex;
@@ -153,8 +154,8 @@ section img {
 .navigation a:hover {
   text-decoration: underline;
 }
-p{
+footer p{
   text-align: center;    
   font-style: italic;
   margin-top: 0;
-  }
+}
